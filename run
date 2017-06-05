@@ -1,0 +1,124 @@
+Software centre without application -
+    gpupdate /f
+    machine policy retrieval: WMIC /namespace:\\root\ccm path sms_client CALL TriggerSchedule "{00000000-0000-0000-0000-000000000022}" /NOINTERACTIVE
+ 
+HP Application Lifecycle Management (ALM) jsp file (java code instead of PHP, some plugins act as libraries) -
+    Open with firefox
+   
+App Lifecycle Management initialise error -
+    Internet Options -> Advanced -> Do not save encrypted pages to disk (e.g. Reset)
+ 
+Remedy cannot find page - client CPU reached 100% usage
+ 
+Excel owner/hidden opened file -
+    cmd: dir /ah -> del /f ~$document
+ 
+Remote Desktop Protocol sudden close -
+    services.msc -> remote access connection manager
+    graphic setting (e.g. reduce resolution)
+ 
+Excel not printing protected document -
+    open & close file on another machine
+ 
+iPad Citrix check credential or network connection issue -
+    Settings -> General -> Usage -> delete citrix app -> power cycle
+ 
+Siebel correspondence letter live doc not openning -
+    aspx extension association
+ 
+Outlook sync issues check -
+    view all Outlook folder by folder icon at bottom of Outlook
+ 
+Time Management System failed to launch network error -
+    update java
+ 
+Outlook search email not found -
+    exit Outlook -> run Index Options -> re-index
+ 
+Outlook slow & constantly need reboot -
+    Start -> Run... -> outlook /cleanfreebusy
+    outlook.exe /safe
+    File -> Option -> Advanced -> Disable hardware graphic acceleration
+ 
+Adobe Reader PDF not printing -
+    Advanced -> Print as image
+ 
+Internet Explorer not asking Save or Open -
+    Security -> Download Options
+    Internet Options -> Advanced -> Sercurity -> Do not save encrypted pages to disk
+ 
+Windows script host error & vbscript runtime error -
+    turn down UAC
+    gpupdate /f
+    can be permission and/or no existing file/location
+ 
+Local authority (login) service not found -
+    ldap
+ 
+Outlook attachments shrink -
+    Under Attach (top bar) -> Include (include diagogue box lancher attachment option)
+ 
+Citrix CIA association -
+    Program Files (x86) -> Citrix -> ICAClient -> wfcrun32
+ 
+MOC crashes -
+    delete SIP profile in AppData/Local/Microsoft/Communicator
+    crashes die to Outlook (address book) -> MOC-> Options -> Personel -> Personel Information manager list ->
+    -> none or windows address book -> run/fix Outlook -> reverse back to Outlook address book
+ 
+Machine Policy -
+    Control Panel -> Configuration Manager -> Actions -> run Application Deployment and Machine Policy update
+    Program File\ConfigMgr\adminUI\Bin\adminconsole.msc
+ 
+Outlook cannot configure data file -
+    Account Settings -> Account Settings -> E-mail (no path at the bottomunder following location:) ->
+ -> Change Folder -> Create new folder/inbox -> OK -> Reverse back to correct path
+ 
+Repair PST -
+    Program Files (x86) -> scans.exe
+ 
+Airwatch erroe 403 -
+    Enable activesync in exchange - Recipients -> Mailboxes -> Edit -> Mailbox Features -> Mobile Devices
+    Disable then Enable activesync
+ 
+Network Folder - Check Sharing Centre -> Advanced Sharing Settings
+ 
+Outlook links not responding -
+    Reset IE, Change default browser
+ 
+SCCM - telnet p:2701 2702 135
+ 
+Citrix BlueCoat proxy - SSL Certificates, port 1494
+    Authentication mode to Auto
+ 
+Method NewFileAttachment (Sieble) -
+    1. Query for the attachment applet.
+    2. Query for the New file control.
+    3. Change the method invoked to NewFileAttachment from New Record.
+    4. Compile the applet.
+PDF reader tries to open exe -
+    Default Program -> Association -> .acrobatsecuritysettings (remove office word)
+    End explorer.exe process ->
+    -> cmd CD /d %userprofile%\AppData\Local    DEL IconCache.db /a
+    ->Start File > New Task (Run) explorer.exe -> Reboot
+ 
+Outlook non-showing unread mail
+    Reset View
+    search ":unread"
+    
+Firefox - Sec Conn Failed
+  about:config -> security.ssl.enable_ocsp_stapling (false)
+ 
+ 
+net use x :\\ /user $u $p
+net use x: \\ /P:Yes
+net use * /delete
+net user %USERNAME% /domain
+net user %USERNAME% $p
+ 
+ 
+rsop.msc - Check GPO
+gpresult >o1.txt
+nslookup
+wmic csproduct
+c:\windows\SYSTEM32\cleanmgr.exe /dDrive 
