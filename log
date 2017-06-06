@@ -116,6 +116,9 @@ Firefox - Sec Conn Failed
     In Connection Setting window, check Manual proxy connection
     Use system proxy settings
    Also check Options> Advanced > Certificates
+   Also check Options -> Advanced -> Validation -> uncheck OCSP
+   security.tls.version.max (or tls),modify the value to 2 from 3
+   
     
   
 InfoPath offline -
