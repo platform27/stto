@@ -108,6 +108,17 @@ Outlook non-showing unread mail
     
 Firefox - Sec Conn Failed
   about:config -> security.ssl.enable_ocsp_stapling (false)
+  
+InfoPath offline -
+    Open InfoPath Designer 2010, click Blank Form, and then click Design Form.
+    On the Data tab, click Data Connections, and then click Add
+    OR
+    Copy to and open files exactly in C:\Users\Administrator\Documents\
+    OR
+    Clear the Office Document Cache by:
+        Go to Start -> All Programs -> Microsoft Office -> Microsoft Office 2010 Tools
+        Run the ‘Microsoft Office 2010 Upload Center’
+        Under Settings, click on Delete cached files
  
  
 net use x :\\ /user $u $p
