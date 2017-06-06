@@ -108,6 +108,7 @@ Outlook non-showing unread mail
     
 Firefox - Sec Conn Failed
   about:config -> security.ssl.enable_ocsp_stapling (false)
+  browser.ssl_override_behavior and change the value from ‘1’ to ‘2’
   
 InfoPath offline -
     Open InfoPath Designer 2010, click Blank Form, and then click Design Form.
