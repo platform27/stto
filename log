@@ -115,6 +115,7 @@ Firefox - Sec Conn Failed
     Click on the Setting button in Connection field
     In Connection Setting window, check Manual proxy connection
     Use system proxy settings
+   Also check Options> Advanced > Certificates
     
   
 InfoPath offline -
