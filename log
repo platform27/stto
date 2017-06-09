@@ -131,6 +131,9 @@ InfoPath offline -
         Go to Start -> All Programs -> Microsoft Office -> Microsoft Office 2010 Tools
         Run the ‘Microsoft Office 2010 Upload Center’
         Under Settings, click on Delete cached files
+        
+Email attached body - Rich Text
+   Changed to HTML
  
  
 net use x :\\ /user $u $p
