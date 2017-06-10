@@ -1,0 +1,307 @@
+
+img.logo
+{
+	width: 38px;
+	margin-top: 5px;
+	margin-left: 5px;
+	margin-bottom: 5px;
+	padding: 2px 2px 2px 2px;
+}
+
+img.logo-medium
+{
+	width: 20%;
+	min-width: 100px;
+	max-width: 150px;
+}
+
+a.logo
+{
+	text-decoration: none;
+	color: black;
+}
+
+span.logo
+{
+	vertical-align:sub;
+	font-size: 20px;
+	font-weight: 200;
+}
+
+h1.logo
+{
+	font-weight: 200;
+}
+
+.form-inline div div div
+{
+	padding: 2px;
+}
+.progress
+{
+	height: 10px;
+}
+
+.description
+{
+	border-left: 1px #c9c9c9 solid;
+	margin-left: 10px;
+	padding-left: 10px;
+	align-content: center;
+}
+
+td.sum
+{
+	border-left: 1px solid #c1c1c1;
+}
+
+ul.nav-tabs li:hover
+{
+	animation: background-color 3s ease;
+}
+
+.panel-primary .panel-heading
+{
+	background-color: rgba(223, 45, 28, 0.8);
+	background-image: url(../img/greyzz.png);
+	background-blend-mode:multiply;
+}
+.price
+{
+	font-size: 32pt;
+	font-weight: 200;
+}
+
+.toprint
+{
+	background-color: white;
+}
+
+.pricetag
+{
+	line-height: 18pt;
+	text-align: right;
+	margin-right: 12pt;
+	border: 1px #df2d1c dashed;
+	width: auto;
+	height: 48pt;
+	border-radius: 5px;
+}
+
+.primary
+{
+	color: #df2d1c;
+}
+
+.drug
+{
+	font-style: italic;
+}
+.invalid
+{
+	border: 1px red solid;
+	color: #df2d1c;
+}
+
+.invalid
+{
+	border: 1px red solid;
+	color: #df2d1c;
+}
+
+img.loading {
+		width: 12px;
+		height: 12px;
+		-webkit-animation:spin 0.5s linear infinite;
+		-moz-animation:spin 0.5s linear infinite;
+		animation:spin 0.5s linear infinite;
+}
+
+img.inverted
+{
+	-webkit-filter: brightness(10);
+  filter: brightness(10);
+}
+
+div.loading
+{
+	height: 12px;
+}
+
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+
+div.higher
+{
+	padding-left: inherit;
+	padding-top: 6px;
+	position: absolute;
+	z-index: 1;
+}
+
+.model-primary
+{
+	color: white;
+	border-radius: 4px 4px 0px 0px;
+	background-color: rgba(223, 45, 28, 0.9);
+	background-image: url(../img/greyzz.png);
+	background-blend-mode:multiply;
+}
+
+/* Modal */
+
+.modal-dialog
+{
+	margin-top: 100px;
+}
+
+.side-panel
+{
+	border-right: 1px #c6c6c6 solid;
+}
+/* <Search> */
+
+.add-on .input-group-btn > .btn {
+  border-left-width:0;left:-2px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+}
+/* stops the glowing blue shadow */
+.add-on .form-control:focus {
+ box-shadow:none;
+ -webkit-box-shadow:none; 
+ border-color:#cccccc; 
+}
+.navbar-nav:last-child{ border-right:0}
+
+/* </Search> */
+
+.tile-container
+{
+	background-color:transparent;
+}
+
+.tile
+{
+	display:inline-block;
+	background: white;
+	height: 200px;
+	margin: 2pt 2pt 2pt 2pt;
+	border-bottom-right-radius: 10px;
+	transform: scale(1);
+	z-index: 0;
+	cursor: pointer;
+	-webkit-box-shadow: 0px 0px 10px -1px rgba(0,0,0,0.2);
+	-moz-box-shadow: 0px 0px 10px -1px rgba(0,0,0,0.2);
+	box-shadow: 0px 0px 10px -1px rgba(0,0,0,0.2);
+	transition: background-color 0.5s ease,  box-shadow 0.5s, transform 0.5s ease, z-index 0.5s;
+}
+
+.tile:hover
+{
+	transform: scale(1.05);
+	z-index: 1;
+	-webkit-box-shadow: 0px 0px 15px -1px rgba(0,0,0,0.5);
+	-moz-box-shadow: 0px 0px 15px -1px rgba(0,0,0,0.5);
+	box-shadow: 0px 0px 15px -1px rgba(0,0,0,0.5);
+	transition:  box-shadow 0.5s, transform 0.5s ease, z-index 0.5s;
+}
+
+.qty
+{
+	font-size: 2em;
+	margin-bottom: 0px;
+}
+
+.offset
+{
+	margin-top: 50px;
+}
+
+.tab-pane
+{
+	margin-top: 90px;
+}
+
+.tab-pane-login
+{
+	margin-top: 140px;
+}
+
+nav
+{
+	background-color: rgba(255, 255, 255, 0.69);
+	background-image: url("../img/crossword.png");
+	background-repeat: repeat;
+}
+
+.nav-tabs {
+	border-bottom: 1px transparent solid;
+}
+
+.navbar-fixed-top
+{
+}
+
+.toolbar
+{
+	width: inherit;
+	position: fixed;
+	z-index: 2;
+	background-image: url(../img/greyzz.png);
+	background-blend-mode:multiply;
+	-webkit-box-shadow: 0px 0px 5px -1px rgba(0,0,0,0.5);
+	-moz-box-shadow: 0px 0px 5px -1px rgba(0,0,0,0.5);
+	box-shadow: 0px 0px 5px -1px rgba(0,0,0,0.5);
+}
+
+.floating-action{
+    position:fixed;
+    bottom:0;
+    right:0;
+		margin-bottom: 20px;
+		margin-right: 20px;
+}
+
+.floating-action-btn{
+  width: 50px;
+  height: 50px;
+	padding-top: 0px;
+  font-size: 30px;
+	font-weight: 200;
+  border-radius: 30px;
+	outline: none;
+	
+	-webkit-box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+	-moz-box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.floating-action-btn:focus{
+	outline: none;
+}
+/* animation */
+.wrapper {
+  position: relative;
+  height: 120px;
+}
+
+.reveal-animation {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+body
+{
+	background-image: url(../img/pixel_weave.png);
+}
+.center {
+	 float: none;
+	 margin-left: auto;
+	 margin-right: auto;
+}
+[ng\:cloak], [ng-cloak], .ng-cloak {
+  display: none !important;
+}    
