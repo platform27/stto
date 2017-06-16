@@ -118,6 +118,7 @@ Firefox - Sec Conn Failed
    Also check Options> Advanced > Certificates
    Also check Options -> Advanced -> Validation -> uncheck OCSP
    security.tls.version.max (or tls),modify the value to 2 from 3
+   ssl3 security.ssl3.dhe_rsa_aes_128_sha security.ssl3.dhe_rsa_aes_256_sha false
    
     
   
