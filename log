@@ -136,6 +136,9 @@ InfoPath offline -
 Email attached body - Rich Text
    Changed to HTML
  
+ Software Centre App Server -
+    %windir%/Microsoft.NET/Framework64/v4.0.30319/aspnet_regiis.exe /i –enable
+    %windir%/Microsoft.NET/Framework64/v4.0.30319/iisreset
  
 net use x :\\ /user $u $p
 net use x: \\ /P:Yes
