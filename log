@@ -122,6 +122,11 @@ Firefox - Sec Conn Failed
    Install Disable DHE in Add-ons
    network.http.spdy.enabled.http2 true to false
    
+AK
+    /Users/yourusername/Library/Application Support/  keystore.xml
+    legacy plugins using NPAPI technology
+        about:config New Boolean plugin.load_flash_only false
+    
     
   
 InfoPath offline -
