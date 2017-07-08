@@ -142,6 +142,9 @@ InfoPath offline -
         
 Email attached body - Rich Text
    Changed to HTML
+   
+Outlook pale  menu text
+   Go to the View Tab at the top in Outlook-->View Settings over on the left -->Conditional Formatting-->
  
  Software Centre App Server -
     %windir%/Microsoft.NET/Framework64/v4.0.30319/aspnet_regiis.exe /i –enable
